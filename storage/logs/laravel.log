@@ -1,0 +1,16 @@
+[2022-07-14 08:40:18] local.ERROR: Declaration of App\Http\Middleware\Authenticate::handle($request, Closure $next) must be compatible with Illuminate\Auth\Middleware\Authenticate::handle($request, Closure $next, ...$guards) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\Http\\Middleware\\Authenticate::handle($request, Closure $next) must be compatible with Illuminate\\Auth\\Middleware\\Authenticate::handle($request, Closure $next, ...$guards) at D:\\LSKIT\\laravel-auth\\app\\Http\\Middleware\\Authenticate.php:53)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-14 08:45:21] local.ERROR: Declaration of App\Http\Middleware\Authenticate::handle($request, $next) must be compatible with Illuminate\Auth\Middleware\Authenticate::handle($request, Closure $next, ...$guards) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\Http\\Middleware\\Authenticate::handle($request, $next) must be compatible with Illuminate\\Auth\\Middleware\\Authenticate::handle($request, Closure $next, ...$guards) at D:\\LSKIT\\laravel-auth\\app\\Http\\Middleware\\Authenticate.php:53)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-14 08:45:29] local.ERROR: Declaration of App\Http\Middleware\Authenticate::handle($request, Closure $next) must be compatible with Illuminate\Auth\Middleware\Authenticate::handle($request, Closure $next, ...$guards) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\Http\\Middleware\\Authenticate::handle($request, Closure $next) must be compatible with Illuminate\\Auth\\Middleware\\Authenticate::handle($request, Closure $next, ...$guards) at D:\\LSKIT\\laravel-auth\\app\\Http\\Middleware\\Authenticate.php:53)
+[stacktrace]
+#0 {main}
+"} 
+[2022-07-14 08:45:31] local.ERROR: Declaration of App\Http\Middleware\Authenticate::handle($request, Closure $next) must be compatible with Illuminate\Auth\Middleware\Authenticate::handle($request, Closure $next, ...$guards) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\Http\\Middleware\\Authenticate::handle($request, Closure $next) must be compatible with Illuminate\\Auth\\Middleware\\Authenticate::handle($request, Closure $next, ...$guards) at D:\\LSKIT\\laravel-auth\\app\\Http\\Middleware\\Authenticate.php:53)
+[stacktrace]
+#0 {main}
+"} 
