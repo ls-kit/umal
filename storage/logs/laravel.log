@@ -14,3 +14,45 @@
 [stacktrace]
 #0 {main}
 "} 
+[2022-07-16 06:22:39] local.ERROR: Argument 2 passed to Symfony\Component\Translation\Translator::addResource() must be an instance of Symfony\Component\Translation\mixed, array given, called in D:\laragon\www\bundler\vendor\nesbot\carbon\src\Carbon\AbstractTranslator.php on line 166 {"exception":"[object] (TypeError(code: 0): Argument 2 passed to Symfony\\Component\\Translation\\Translator::addResource() must be an instance of Symfony\\Component\\Translation\\mixed, array given, called in D:\\laragon\\www\\bundler\\vendor\
+esbot\\carbon\\src\\Carbon\\AbstractTranslator.php on line 166 at D:\\laragon\\www\\bundler\\vendor\\symfony\\translation\\Translator.php:110)
+[stacktrace]
+#0 D:\\laragon\\www\\bundler\\vendor\
+esbot\\carbon\\src\\Carbon\\AbstractTranslator.php(166): Symfony\\Component\\Translation\\Translator->addResource('array', Array, 'en')
+#1 D:\\laragon\\www\\bundler\\vendor\
+esbot\\carbon\\src\\Carbon\\AbstractTranslator.php(253): Carbon\\AbstractTranslator->resetMessages('en')
+#2 D:\\laragon\\www\\bundler\\vendor\
+esbot\\carbon\\src\\Carbon\\AbstractTranslator.php(358): Carbon\\AbstractTranslator->loadMessagesFromFile('en')
+#3 D:\\laragon\\www\\bundler\\vendor\\symfony\\translation\\Translator.php(74): Carbon\\AbstractTranslator->setLocale('en')
+#4 D:\\laragon\\www\\bundler\\vendor\
+esbot\\carbon\\src\\Carbon\\AbstractTranslator.php(86): Symfony\\Component\\Translation\\Translator->__construct('en', NULL, NULL, false)
+#5 D:\\laragon\\www\\bundler\\vendor\
+esbot\\carbon\\src\\Carbon\\AbstractTranslator.php(74): Carbon\\AbstractTranslator->__construct('en')
+#6 D:\\laragon\\www\\bundler\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Localization.php(694): Carbon\\AbstractTranslator::get()
+#7 D:\\laragon\\www\\bundler\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Localization.php(731): Carbon\\Carbon::translator()
+#8 D:\\laragon\\www\\bundler\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Localization.php(485): Carbon\\Carbon::getLocaleAwareTranslator()
+#9 D:\\laragon\\www\\bundler\\vendor\
+esbot\\carbon\\src\\Carbon\\Laravel\\ServiceProvider.php(49): Carbon\\Carbon::setLocale('en')
+#10 D:\\laragon\\www\\bundler\\vendor\
+esbot\\carbon\\src\\Carbon\\Laravel\\ServiceProvider.php(29): Carbon\\Laravel\\ServiceProvider->updateLocale()
+#11 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Carbon\\Laravel\\ServiceProvider->boot()
+#12 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(924): Illuminate\\Container\\Container->call(Array)
+#17 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(905): Illuminate\\Foundation\\Application->bootProvider(Object(Carbon\\Laravel\\ServiceProvider))
+#18 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Carbon\\Laravel\\ServiceProvider), 33)
+#19 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(906): array_walk(Array, Object(Closure))
+#20 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#21 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#22 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(153): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#23 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#24 D:\\laragon\\www\\bundler\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#25 D:\\laragon\\www\\bundler\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#26 D:\\laragon\\www\\bundler\\server.php(21): require_once('D:\\\\laragon\\\\www\\\\...')
+#27 {main}
+"} 
