@@ -9,8 +9,8 @@ class WelcomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function welcome()
+    public function login()
     {
-        return view('welcome');
+        return view('auth.login');
     }
 }
